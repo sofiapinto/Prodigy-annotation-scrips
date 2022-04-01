@@ -34,20 +34,20 @@ def blocksSolution(dataset, source, lang="en"):
 	    "config": {
 	    	"instructions": "annotation_instructions.html",
 	    	"buttons": ["accept", "reject", "ignore"],
-	        "labels": ["Location",
-	        			"Date/time",
-	        			"Weather"],  # the labels for the manual NER interface
+	        "labels": ["Weather",
+	        			"Location",
+	        			"Date/time"],  # the labels for the manual NER interface
 	        "blocks": blocks,
 	        "custom_theme": { #changing colors
-	            "labels": {"Location": "#af8dc3", 
-	            			"Date/time": "#fdae61",
-	            			"Weather": "#4393c3"
+	            "labels": {"Weather": "#4393c3",
+	            			"Location": "#af8dc3", 
+	            			"Date/time": "#fdae61"		
 	            },
 	            "ignore":"#FFD700"
 	        },
-	        "keymap_by_label": {"Location": "l", #each NER label will be associated with a key
-		            			"Date/time": "d",
-		            			"Weather": "w"},
+	        "keymap_by_label": {"Weather": "w", #each NER label will be associated with a key
+	        					"Location": "l", 
+		            			"Date/time": "d"},
 	        "history_length": 20,
 	        "javascript": javascript
 	        }

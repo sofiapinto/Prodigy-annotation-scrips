@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER) + Text Classification
 
-Annotation recipe with a NER block and text classification block.
+**Annotation recipe** with a **NER** block and text **classification** block.
 
 In the example below we have an annotation setup that receives short sentences and the annotator can:
 - highlight location, date/time and weather related tokens in weather related sentences;
