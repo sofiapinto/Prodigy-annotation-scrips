@@ -8,6 +8,8 @@ In the example below we have an annotation setup that receives short sentences a
 
 The accept, reject and ignore buttons can also be used for a different purpose such as accepting/rejecting the annotation in hand.
 
+![NER_classification_gif](https://github.com/sofiapinto/Prodigy-annotation-scripts/blob/main/gifs/prodigy_NER_class.gif)
+
 ## Files
 
 * *annotation_setup*: the main file with the annotation setup, using a blocks recipe. Note that, a NER recipe could have been used instead;
