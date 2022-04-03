@@ -8,6 +8,8 @@ In the example below we have an annotation setup that receives short sentences (
 
 The accept, reject and ignore buttons can also be used for a different purpose such as accepting/rejecting/ignoring the annotation in hand.
 
+Notice that one can either click or use keyboard shortcuts to annotate.
+
 ![NER_classification_gif](https://github.com/sofiapinto/Prodigy-annotation-scripts/blob/main/gifs/prodigy_NER_class.gif)
 
 ## Files
