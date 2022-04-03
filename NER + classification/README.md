@@ -6,7 +6,7 @@ In the example below we have an annotation setup that receives short sentences (
 - highlight location, date/time and weather related tokens in weather related sentences;
 - classify text as weather related (green/accept button), non-weather related (red/reject button) or click unsure (yellow/ignore button) otherwise.
 
-The accept, reject and ignore buttons can also be used for a different purpose such as accepting/rejecting the annotation in hand.
+The accept, reject and ignore buttons can also be used for a different purpose such as accepting/rejecting/ignoring the annotation in hand.
 
 ![NER_classification_gif](https://github.com/sofiapinto/Prodigy-annotation-scripts/blob/main/gifs/prodigy_NER_class.gif)
 
