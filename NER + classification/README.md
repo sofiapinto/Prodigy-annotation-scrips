@@ -2,7 +2,7 @@
 
 **Annotation recipe** with a **NER** block and text **classification** block.
 
-In the example below we have an annotation setup that receives short sentences and the annotator can:
+In the example below we have an annotation setup that receives short sentences (e.g. tweets) and the annotator can:
 - highlight location, date/time and weather related tokens in weather related sentences;
 - classify text as weather related (green/accept button), non-weather related (red/reject button) or click unsure (yellow/ignore button) otherwise.
 
@@ -12,15 +12,15 @@ The accept, reject and ignore buttons can also be used for a different purpose s
 
 ## Files
 
-* *annotation_setup*: the main file with the annotation setup, using a blocks recipe. Note that, a NER recipe could have been used instead;
+* *annotation_setup.py*: the main file with the annotation setup, using a blocks recipe. Note that, a NER recipe could have been used instead;
 
-* *annotation_javascript*: code to make the first NER label the default label.
+* *annotation_javascript.js*: code to make the first NER label the default label.
 
-* *annotation_instructions*: instructions on how to use the tool that can be checked by the annotator (by clicking the help button on the upper left hand side);
+* *annotation_instructions.html*: instructions on how to use the tool that can be checked by the annotator (by clicking the help button on the upper left hand side);
 
-* *extract_annotations*: code to export the annotated data to a json file;
+* *extract_annotations.py*: code to export the annotated data to a json file;
 
-* *sentences*: file with sentences to annotate;
+* *sentences.jsonl*: file with sentences to annotate (the input file needs to be of type jsonl);
 
 ## Instructions for the annotators
 

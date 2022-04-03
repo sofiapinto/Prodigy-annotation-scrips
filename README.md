@@ -4,6 +4,8 @@ This repository contains scripts/recipes for text manual annotation using [Prodi
 
 The following recipes were inspired in code found in [Explosion AI's GitHub repository](https://github.com/explosion/prodigy-recipes) with the help of [Prodigy's Support Forum](https://support.prodi.gy/).
 
+The focus should not be on the specific example applications I used but on the code to create the blocks of annotation tasks - that you can use in your own applications.
+
 
 ## [Named Entity Recognition and Text Classification](https://github.com/sofiapinto/Prodigy-annotation-scripts/tree/main/NER%20%2B%20classification)
 Recipe for manually annotating text:
